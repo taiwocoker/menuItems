@@ -6,6 +6,7 @@ import items from './data';
 function App() {
   const [menuItems,setMenuItems] = useState(items);
   const [categories,setCategories] = useState([]);
+    
   return <main>
     <section className="menu section">
       <div className="title">
